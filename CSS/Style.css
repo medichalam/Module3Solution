@@ -37,18 +37,5 @@ div {
 p {
 	box-sizing: border-box;
 	background-color: lightgray;
-		
 	padding: 10px;
-	border: 1px solid black;
-	margin: 8px;
-}
-
-#p1 {
-	background-color: maroon;
-	position: absolute;
-	right: 0;
-}
-
-#pText {
-	padding-top: 50px;
 }
