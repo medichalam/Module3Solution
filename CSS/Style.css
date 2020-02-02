@@ -19,7 +19,7 @@
 #nav-list a {
   text-align: center;
   color: white;
-  background-color: #277d5f;
+  background-color: gray;
 
 }
 #nav-list a:hover {
@@ -29,8 +29,6 @@
 #nav-list a span {
   font-size: 1.8em;
 } 
-
-
 
 div {
 	position: relative;
@@ -51,49 +49,6 @@ p {
 	right: 0;
 }
 
-#p2 {
-	background-color: darkgreen;
-	position: absolute;
-	right: 0;
-}
-
-#p3 {
-	background-color: yellow;
-	position: absolute;
-	right: 0;
-}
-
 #pText {
 	padding-top: 50px;
-}
-
-/***************** Desktop View ***********************/
-@media (min-width: 992px) {
-	.	 {
-		float: left;
-		width: 100%;
-	}
-}
-
-/****************** Tablet View **********************/
-@media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6, .col-md-12 {
-		float: left;
-	}
-
-	.col-md-6 {
-		width: 50%
-	}
-
-	.col-md-12 {
-		width: 100%
-	}
-}
-
-/***************** Mobile View ***********************/
-@media (max-width:767px) {
-	.col-sm-12 {
-		float: left;
-		width: 100%
-	}
 }
