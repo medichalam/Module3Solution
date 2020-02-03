@@ -34,8 +34,11 @@ div {
 	position: relative;
 }
 
+section {
+  background-color: lightgray;
+}
+
 p {
 	box-sizing: border-box;
-	background-color: lightgray;
 	padding: 10px;
 }
